@@ -29,7 +29,8 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+ $routes->get('/', 'AuthController::loginForm',['as'=>'admin.login.form']);
+
 
 $routes->group('admin', static function($routes){
 
@@ -44,10 +45,23 @@ $routes->group('admin', static function($routes){
     $routes->group('', [], static function($routes) { 
         $routes->view('product', 'product');
     });
+    $routes->group('', [], static function($routes) { 
+        $routes->view('user', 'user');
+    });
+    $routes->group('', [], static function($routes) { 
+        $routes->view('add-user', 'add-user');
+    });
 
     $routes->group('', [], static function($routes) { 
         $routes->view('add-product', 'add-product');
     });
+
+    $routes->group('', [], static function($routes) { 
+        $routes->get('home', 'AdminController::index',['as'=>'admin.home']);
+    });
+    // $routes->group('', [], static function($routes) { 
+    //     $routes->get('', 'AuthController::loginForm',['as'=>'admin.login.form']);
+    // });
 });
 
 /*
