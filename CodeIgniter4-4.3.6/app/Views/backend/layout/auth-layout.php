@@ -55,6 +55,10 @@
 						<img src="<?php echo base_url(); ?>/backend/vendors/images/deskapp-logo.svg" alt="" />
 					</a>
 				</div>
+				<div>
+					<b class="text-center text-primary"><a class="text-center text-primary" href="<?php echo base_url(); ?>login">Login</a></b> ||
+					<b><a class="text-center text-primary" href="<?php echo base_url(); ?>register">Register</a></b>
+				</div>
 			</div>
 		</div>
 		<div

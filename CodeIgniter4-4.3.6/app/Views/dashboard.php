@@ -1,0 +1,1 @@
+<h1>welcome , <?= session('user')->user_name; ?></h1>
