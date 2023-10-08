@@ -40,7 +40,7 @@
 							</a>
 							<ul class="submenu">
 								<li><a href="<?php echo site_url(); ?>/admin/add-product">Add Product</a></li>
-								<li><a href="<?php echo site_url(); ?>/admin/product">Manage Product</a></li>
+								<li><a href="<?php echo site_url(); ?>/list">Manage Product</a></li>
 							</ul>
 						</li>
 

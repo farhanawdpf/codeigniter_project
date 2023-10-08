@@ -45,6 +45,14 @@ $routes->get('logout', 'Login::logout');
 $routes->get('/signin', 'Login::index');
 $routes->get('/dashboard', 'Home::index',['filter' => 'authGuard']);
 
+
+$routes->get('add-product', 'ProductController::index');
+$routes->get('/list', 'ProductController::index');
+$routes->post('add-product', 'ProductController::store');
+// $routes->get('edit-product/(:num)', 'ProductController::edit/$1');
+// $routes->post('update-product', 'ProductController::update');
+// $routes->post('delete-product', 'ProductController::delete');
+
 $routes->group('admin', static function($routes){
 
     $routes->group('', [], static function($routes) { 
@@ -58,9 +66,9 @@ $routes->group('admin', static function($routes){
         $routes->view('profile', 'profile');
     });
 
-    $routes->group('', [], static function($routes) { 
-        $routes->view('product', 'product');
-    });
+    // $routes->group('', [], static function($routes) { 
+    //     $routes->view('product', 'product');
+    // });
     $routes->group('', [], static function($routes) { 
         $routes->view('user', 'user');
     });

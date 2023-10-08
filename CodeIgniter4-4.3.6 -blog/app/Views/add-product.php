@@ -1,54 +1,40 @@
 <?= $this->extend('backend/layout/pages-layout') ?>
 <?= $this->section('content') ?>
-<div><h3>Add Product</h3></div><br>
 <div class="container">
 <div class="row">
 <div class="col-12">
-<form>
-	<div class="form-group row">
-		<label class="col-sm-12 col-md-2 col-form-label">Product Name</label>
-		<div class="col-sm-12 col-md-10">
-			<input class="form-control" type="text" name ="product_name" placeholder="Mobile">
-		</div>
-	</div>
-
-	<div class="form-group row">
-		<label class="col-sm-12 col-md-2 col-form-label">Date</label>
-		<div class="col-sm-12 col-md-10">
-			<input class="form-control date-picker" placeholder="Select Date" type="text">
-		</div>
-	</div>
-	<div class="form-group row">
-		<label class="col-sm-12 col-md-2 col-form-label">category</label>
-		<div class="col-sm-12 col-md-10">
-			<select class="custom-select col-12">
-				<option selected="">Choose...</option>
-				<option value="1">Drinks</option>
-				<option value="2">Food</option>
-				<option value="3">Dress</option>
-			</select>
-		</div>
-	</div>
-	<div class="form-group row">
-		<label class="col-sm-12 col-md-2 col-form-label">UOM</label>
-		<div class="col-sm-12 col-md-10">
-			<select class="custom-select col-12">
-				<option selected="">Choose...</option>
-				<option value="1">KG</option>
-				<option value="2">Litter</option>
-				<option value="3">M</option>
-			</select>
-		</div>
-	</div>
-	<div class="form-group row">
-		<label class="col-sm-12 col-md-2 col-form-label">Price</label>
-		<div class="col-sm-12 col-md-10">
-			<input class="form-control" type="text" name ="product_name" placeholder="Price">
-		</div>
-	</div>
-	<div class="form-group row">
-		<input type="submit" class="btn btn-primary" value="Save &amp; Update">
-	</div>
+	<form method ="post" action="<?= site_url('/add-product') ?>">
+                <div class="modal-header">                        
+                    <h4 class="modal-title">Add Product</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">                    
+                    <div class="form-group">
+                        <label>Product</label>
+                        <input type="text" name ="product" id = "product" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Categroy</label>
+                        <input type="text"  name ="category" id = "category" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Price</label>
+                        <input type="number" name ="price" id ="price" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>SKU</label>
+                        <input type="text"  name ="sku"  id = "sku" class="form-control" required>
+                    </div>    
+                    <div class="form-group">
+                        <label>Model</label>
+                        <input type="text"  name ="model" name = "model" class="form-control" required>
+                    </div>                    
+                </div>
+                <div class="modal-footer">
+                    <!-- <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel"> -->
+                    <input type="submit" class="btn btn-info" value="Save">
+                </div>
+    </form>
 </div>
 </div>
 </div>
