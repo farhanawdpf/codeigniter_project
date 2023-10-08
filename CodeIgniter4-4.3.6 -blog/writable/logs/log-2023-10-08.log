@@ -1,0 +1,9 @@
+CRITICAL - 2023-10-08 00:46:02 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\codeigniter_project\CodeIgniter4-4.3.6 -blog\app\Config\Routes.php on line 44
+in SYSTEMPATH\Router\RouteCollection.php on line 917.
+ 1 APPPATH\Config\Routes.php(44): CodeIgniter\Router\RouteCollection->get('/logout', 'Login/logout', 'Login::logout')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\codeigniter_project\\CodeIgniter4-4.3.6 -blog\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter_project\\CodeIgniter4-4.3.6 -blog\\public\\index.php')

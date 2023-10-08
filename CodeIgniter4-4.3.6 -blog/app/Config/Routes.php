@@ -41,6 +41,7 @@ $routes->get('/', 'Register::index');
 $routes->get('/signup', 'Register::index');
 $routes->match(['get', 'post'], 'Register/store', 'Register::store');
 $routes->match(['get', 'post'], 'Login/loginAuth', 'Login::loginAuth');
+$routes->get('logout', 'Login::logout');
 $routes->get('/signin', 'Login::index');
 $routes->get('/dashboard', 'Home::index',['filter' => 'authGuard']);
 

@@ -180,7 +180,7 @@
 							<a class="dropdown-item" href="faq.html"
 								><i class="dw dw-help"></i> Help</a
 							>
-							<a class="dropdown-item" href="<?php echo site_url(); ?>/signin"
+							<a class="dropdown-item" href="<?php echo site_url(); ?>/logout"
 								><i class="dw dw-logout"></i> Log Out</a
 							>
 						</div>
