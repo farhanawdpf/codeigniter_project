@@ -25,8 +25,8 @@
                         <td><?=$product['sku']?></td>
                         <td><?=$product['model']?></td>
                         <td>
-                            <a href="#"   data-id="<?=$product['product_id']?>"class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit"><button>Edit</button></i></a>
-                            <a href="<?php echo site_url(); ?>/list" data-delete_id="<?=$product['product_id']?>"  class="delete" ><i class="material-icons" data-toggle="tooltip" title="Delete"><button>Delete</button></i></a>
+                           <a href="<?= base_url('edit-product/'.$product['product_id']) ?>" class="badge badge-primary">edit</a>
+                            <a href="<?= base_url('delete/'.$product['product_id']) ?>" class="badge badge-primary">delete</a>
                         </td>
                     </tr>
                 <?php } ?>  
