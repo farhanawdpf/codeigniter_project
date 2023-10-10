@@ -57,10 +57,9 @@ class ProductController extends BaseController
         return $this->response->redirect(site_url('/list'));
     }
      // delete product
-     public function delete(){
-      
-        $id = $this->request->getVar('delete_id');
-        $data['product'] = $this->product->where('product_id', $id)->delete($id);
+    public function delete($id){
+        $data = new ProductModel();
+        $data->delete($id);
         return $this->response->redirect(site_url('/list'));
     }   
 }
