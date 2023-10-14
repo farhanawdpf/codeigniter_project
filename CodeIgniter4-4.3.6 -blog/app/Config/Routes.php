@@ -45,13 +45,13 @@ $routes->get('logout', 'Login::logout');
 $routes->get('/signin', 'Login::index');
 $routes->get('/dashboard', 'Home::index',['filter' => 'authGuard']);
 
-
-$routes->get('add-product', 'ProductController::index');
+//for product
+$routes->get('add-product', 'ProductController::create');
 $routes->get('/list', 'ProductController::index');
 $routes->post('add-product', 'ProductController::store');
-// $routes->get('edit-product/(:num)', 'ProductController::edit/$1');
-// $routes->post('update-product', 'ProductController::update');
-// $routes->post('delete-product', 'ProductController::delete');
+$routes->get('edit/(:num)', 'ProductController::edit/$1');
+$routes->get('delete/(:num)', 'ProductController::delete/$1');
+$routes->post('update', 'ProductController::update');
 
 $routes->group('admin', static function($routes){
 
@@ -66,9 +66,7 @@ $routes->group('admin', static function($routes){
         $routes->view('profile', 'profile');
     });
 
-    // $routes->group('', [], static function($routes) { 
-    //     $routes->view('product', 'product');
-    // });
+  
     $routes->group('', [], static function($routes) { 
         $routes->view('user', 'user');
     });
@@ -76,9 +74,9 @@ $routes->group('admin', static function($routes){
         $routes->view('add-user', 'add-user');
     });
 
-    $routes->group('', [], static function($routes) { 
-        $routes->view('add-product', 'add-product');
-    });
+    // $routes->group('', [], static function($routes) { 
+    //     $routes->view('add-product', 'add-product');
+    // });
 
     $routes->group('', [], static function($routes) { 
         $routes->get('home', 'AdminController::index',['as'=>'admin.home']);

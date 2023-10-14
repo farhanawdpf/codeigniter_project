@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CreateCategoryTable extends Migration
+class CreateExpenceTable extends Migration
 {
     public function up()
     {
@@ -17,12 +17,13 @@ class CreateCategoryTable extends Migration
                 'auto_increment' => true
             ],
             'name' => ['type' => 'VARCHAR', 'constraint' => 100],
-            'email' => ['type' => 'VARCHAR', 'constraint' => 80],
-            'password' => ['type' => 'VARCHAR', 'constraint' => 200],
+            'price' => ['type' => 'VARCHAR', 'constraint' => 80],
+            'detail' => ['type' => 'VARCHAR', 'constraint' => 200],
+            'category_id' => ['type' => 'INT', 'constraint' => 5],
             'created_at datetime default current_timestamp',
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('category');
+        $this->forge->createTable('expances');
     }
 
     public function down()

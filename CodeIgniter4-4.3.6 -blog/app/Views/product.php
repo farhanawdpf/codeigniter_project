@@ -1,11 +1,24 @@
 <?= $this->extend('backend/layout/pages-layout') ?>
 <?= $this->section('content') ?>
 
-<div><h3>Product List</h3></div>
+<div class="clearfix mb-20">
+    <div class="pull-left">
+            <h4 class="text-blue h4">Product List</h4>
+    </div>
+    <div class="pull-right">
+        <a
+            href="<?php echo site_url(); ?>/add-product"
+            class="btn btn-primary"
+            role="button"
+            >Add-Product</a
+        >
+    </div>
+    </div> 
+</div>
 <div class="table-responsive">
 <table class="table table-striped table-hover">
                 <thead>
-                    <tr>
+                    <tr class="table-primary">
                          
                         <th>Product</th>
                         <th>Categroy</th>
@@ -18,15 +31,17 @@
                 <tbody>
                 <?php foreach($products as $product) { ?>
                     <tr>
-                     
                         <td><?=$product['product']?></td>
                         <td><?=$product['category']?></td>
                         <td><?=$product['price']?></td>
                         <td><?=$product['sku']?></td>
                         <td><?=$product['model']?></td>
                         <td>
-                            <a href="#"   data-id="<?=$product['product_id']?>"class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit"><button>Edit</button></i></a>
-                            <a href="<?php echo site_url(); ?>/list" data-delete_id="<?=$product['product_id']?>"  class="delete" ><i class="material-icons" data-toggle="tooltip" title="Delete"><button>Delete</button></i></a>
+                            <a href="<?= base_url('edit/'.$product['product_id']) ?>" class="badge badge-primary"><i class="icon-copy ion-edit"></i></a>
+
+                            <a href="<?= base_url('delete/'.$product['product_id']) ?>" class="badge badge-primary"> <i class="icon-copy ion-trash-a"></i></a>
+                           
+                            
                         </td>
                     </tr>
                 <?php } ?>  
