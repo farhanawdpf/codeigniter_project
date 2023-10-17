@@ -18,10 +18,6 @@ class CreateCategoriesTable extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
-            'age'       => [
-                'type'       => 'VARCHAR',
-                'constraint' => '3',
-            ],
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('categories');
