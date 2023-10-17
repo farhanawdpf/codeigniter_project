@@ -1,0 +1,260 @@
+CRITICAL - 2023-10-17 03:43:21 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:43:33 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:43:34 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:43:34 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:43:35 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:44:26 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:44:26 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:44:27 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:44:27 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:45:22 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:45:23 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:45:23 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:45:25 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:45:27 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:02 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:02 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:03 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:03 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:03 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:04 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:04 --> Invalid file: "backend/pages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/register.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/register', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:33 --> Invalid file: "backend/pages/signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/signup.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/signup', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:34 --> Invalid file: "backend/pages/signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/signup.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/signup', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:34 --> Invalid file: "backend/pages/signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/signup.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/signup', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:35 --> Invalid file: "backend/pages/signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/signup.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/signup', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
+CRITICAL - 2023-10-17 03:46:35 --> Invalid file: "backend/pages/signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/pages/signup.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/pages/signup', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('backend/pages/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.6 -blog\\public\\index.php')
