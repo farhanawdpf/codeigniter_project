@@ -8,7 +8,7 @@ class Login extends BaseController
     public function index()
     {
         helper(['form']);
-        echo view('signin');
+        echo view('backend/pages/auth/signin');
     } 
   
     public function loginAuth()

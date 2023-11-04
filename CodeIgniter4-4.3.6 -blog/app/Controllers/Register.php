@@ -9,7 +9,7 @@ class Register extends BaseController
     {
         helper(['form']);
         $data = [];
-        echo view('signup', $data);
+        echo view('backend/pages/auth/signup', $data);
     }
   
     public function store()

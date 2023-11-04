@@ -28,8 +28,8 @@
 								><span class="mtext">Category</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="<?php echo site_url(); ?>/admin/example-page">Add Category</a></li>
-								<li><a href="<?php echo site_url(); ?>/admin/example-auth">Manage Category</a></li>
+								<li><a href="<?php echo site_url(); ?>/add-category">Add Category</a></li>
+								<li><a href="<?php echo site_url(); ?>/view-category">Manage Category</a></li>
 							</ul>
 						</li>
 
@@ -39,7 +39,7 @@
 								><span class="mtext">Product</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="<?php echo site_url(); ?>/admin/add-product">Add Product</a></li>
+								<li><a href="<?php echo site_url(); ?>/add-product">Add Product</a></li>
 								<li><a href="<?php echo site_url(); ?>/list">Manage Product</a></li>
 							</ul>
 						</li>

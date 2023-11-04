@@ -56,8 +56,8 @@
 					</a>
 				</div>
 				<div>
-					<b class="text-center text-primary"><a class="text-center text-primary" href="<?php echo base_url(); ?>login">Login</a></b> ||
-					<b><a class="text-center text-primary" href="<?php echo base_url(); ?>register">Register</a></b>
+					<b class="text-center text-primary"><a class="text-center text-primary" href="<?php echo base_url(); ?>signin">Login</a></b> ||
+					<b><a class="text-center text-primary" href="<?php echo base_url(); ?>signup">Register</a></b>
 				</div>
 			</div>
 		</div>

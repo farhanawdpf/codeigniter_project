@@ -29,13 +29,6 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-//  $routes->get('/', 'Home::index');
-//  $routes->get('/', 'Login::index');
-//  $routes->get('login', 'Login::index');
-//  $routes->get('dashboard', 'Dashboard::index');
-//  $routes->get('register', 'Register::index');
-//  $routes->post('register', 'Register::do_register');
-//  $routes->post('login', 'Login::do_login');
 
 $routes->get('/', 'Register::index');
 $routes->get('/signup', 'Register::index');
@@ -45,48 +38,22 @@ $routes->get('logout', 'Login::logout');
 $routes->get('/signin', 'Login::index');
 $routes->get('/dashboard', 'Home::index',['filter' => 'authGuard']);
 
-
-$routes->get('add-product', 'ProductController::index');
+//for category
+$routes->get('add-category', 'CategoryController::create');
+$routes->get('/view-category', 'CategoryController::index');
+$routes->post('add-category', 'CategoryController::store');
+$routes->get('edit-category/(:num)', 'CategoryController::edit/$1');
+$routes->get('delete/(:num)', 'CategoryController::delete/$1');
+$routes->post('update', 'CategoryController::update');
+//for product
+$routes->get('add-product', 'ProductController::create');
 $routes->get('/list', 'ProductController::index');
 $routes->post('add-product', 'ProductController::store');
-$routes->get('edit-product/(:num)', 'ProductController::edit/$1');
+$routes->get('edit/(:num)', 'ProductController::edit/$1');
 $routes->get('delete/(:num)', 'ProductController::delete/$1');
-$routes->post('edit-product', 'ProductController::update');
+$routes->post('update', 'ProductController::update');
 
-$routes->group('admin', static function($routes){
 
-    $routes->group('', [], static function($routes) { 
-        $routes->view('example-page', 'example-page');
-    });
-
-    $routes->group('', [], static function($routes) { 
-        $routes->view('example-auth', 'example-auth');
-    });
-    $routes->group('', [], static function($routes) { 
-        $routes->view('profile', 'profile');
-    });
-
-    // $routes->group('', [], static function($routes) { 
-    //     $routes->view('product', 'product');
-    // });
-    $routes->group('', [], static function($routes) { 
-        $routes->view('user', 'user');
-    });
-    $routes->group('', [], static function($routes) { 
-        $routes->view('add-user', 'add-user');
-    });
-
-    $routes->group('', [], static function($routes) { 
-        $routes->view('add-product', 'add-product');
-    });
-
-    $routes->group('', [], static function($routes) { 
-        $routes->get('home', 'AdminController::index',['as'=>'admin.home']);
-    });
-    $routes->group('', [], static function($routes) { 
-        $routes->get('', 'AuthController::loginForm',['as'=>'admin.login.form']);
-    });
-});
 
 /*
  * --------------------------------------------------------------------
